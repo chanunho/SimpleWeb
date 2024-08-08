@@ -1,0 +1,135 @@
+body {
+  margin: 0px;
+  height: 800px;
+  background-image: url(background.jfif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.start {
+  padding-left: 20px;
+}
+
+.center nav a{
+  padding: 8px;
+}
+
+.end {
+  padding-right: 20px;
+}
+
+a, button{
+  color: white;
+}
+
+input {
+  border-radius: 15px; 
+  text-align: center;
+}
+
+button {
+  background-color: darkgreen;
+  border-radius: 15px;
+}
+
+.main_main p {
+  margin: 0px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about_main, .contact_main {
+  padding-left: 120px;
+}
+
+.main_title, .no_search{
+  font-size: 60px;
+  padding-top: 80px;
+  padding-left: 50px;
+  padding-right:50px;
+  padding-bottom: 50px;
+}
+
+.main_text {
+  padding-left: 50px;
+  padding-right:50px;
+}
+
+.result {
+  margin: 20px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.result h1 {
+  margin: 10px;
+}
+
+.about_main_title{
+  font-size: 40px;
+}
+
+.about_main {
+  padding-right: 30px;
+}
+
+.about_main_text {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  margin-bottom: 60px;
+}
+
+.about_team {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.about_team_title, .member1, .member2 {
+  display: inline-block;
+  padding-right: 50px;
+  padding-left: 30px;
+}
+
+.about_team_title {
+  font-size: 30px;
+}
+
+.member1 p:first-child, .member2 p:first-child{
+  font-size: 25px;
+}
+
+.member1 p:last-child, .member2 p:last-child{
+  font-size: 10px;
+}
+
+.contact_main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact_main_title {
+  padding-top: 60px;
+  font-size: 60px;
+}
+
+.contact_main_box {
+  padding-top: 180px;
+}
+
+.contact_main_box label, .contact_main_box input, .contact_main_box button{
+  margin: 10px;
+}
